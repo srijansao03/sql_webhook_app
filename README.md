@@ -4,36 +4,35 @@ This Python application automates the process of retrieving a webhook for a codi
 
 ---
 
-## 🚀 Features
+ Features
 
-- Automatically generates a webhook and access token from the challenge provider.
-- Determines the SQL problem based on the last digit of the registration number.
-- Solves the SQL problem (for even registration number - Question 2).
-- Submits the final SQL query securely using the provided webhook.
+ Automatically generates a webhook and access token from the challenge provider.
+ Determines the SQL problem based on the last digit of the registration number.
+ Solves the SQL problem (for even registration number - Question 2).
+ Submits the final SQL query securely using the provided webhook.
 
----
 
-## 🛠️ Technologies Used
 
-- Python 3
-- `requests` library for handling HTTP requests
+Technologies Used
 
----
+Python 3
+`requests` library for handling HTTP requests
 
-## 🧠 Problem Statement
 
-> For each employee, return the count of employees in the same department who are **younger** than them, along with their department name.  
-> Output should include:
->
-> - `EMP_ID`
-> - `FIRST_NAME`
-> - `LAST_NAME`
-> - `DEPARTMENT_NAME`
-> - `YOUNGER_EMPLOYEES_COUNT`
 
----
+Problem Statement
 
-## 🧾 Final SQL Query
+ For each employee, return the count of employees in the same department who are **younger** than them, along with their department name.  
+ Output should include:
+ `EMP_ID`
+ `FIRST_NAME`
+ `LAST_NAME`
+ `DEPARTMENT_NAME`
+ `YOUNGER_EMPLOYEES_COUNT`
+
+
+
+Final SQL Query
 
 ```sql
 SELECT 
